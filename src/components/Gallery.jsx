@@ -106,7 +106,7 @@ function Gallery() {
         </div>
 
         {/* Filter Buttons */}
-        <div className="text-center mb-4">
+        {/* <div className="text-center mb-4">
           <div
             className="d-inline-flex flex-wrap justify-content-center gap-2 p-2 rounded-pill"
             style={{ backgroundColor: "white", boxShadow: "0 2px 10px rgba(0,0,0,0.1)" }}
@@ -127,10 +127,10 @@ function Gallery() {
               </button>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Gallery Grid */}
-        <div className="row g-4">
+        {/* <div className="row g-4">
           {filteredItems.map((item) => (
             <div key={item.id} className="col-md-6 col-lg-4">
               <div
@@ -193,14 +193,14 @@ function Gallery() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Instagram Feed */}
         <div className="text-center mt-5">
           <h4 style={{ color: "#4A0025", marginBottom: "20px" }}>Follow Us On Instagram</h4>
 
           <a
-            href="https://www.instagram.com/swapna_makeupartist.16/?igsh=dWhkcnNoOGlhN2t4#"
+            href="https://www.instagram.com/ss_herbal_beauty_parlour/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
@@ -224,8 +224,23 @@ function Gallery() {
               boxShadow: "0 5px 15px rgba(0,0,0,0.1)",
             }}
           >
-            <p style={{ color: "#666" }}>Instagram feed would be embedded here in the live website.</p>
-          </div>
+ <div className=" my-">
+      {/* SnapWidget Instagram Feed */}
+      <iframe
+        src="https://snapwidget.com/embed/1099660"
+        className="snapwidget-widget"
+        allowTransparency="true"
+        frameBorder="0"
+        scrolling="no"
+        style={{
+          border: "none",
+          overflow: "hidden",
+          width: "100%",
+          height: "500px",
+        }}
+        title="Instagram Feed"
+      ></iframe>
+    </div>          </div>
         </div>
       </div>
 

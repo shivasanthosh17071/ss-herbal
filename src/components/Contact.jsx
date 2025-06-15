@@ -160,7 +160,7 @@ function Contact() {
                     <i className="bi bi-whatsapp"></i>
                   </a>
                   <a
-                    href="https://www.instagram.com/swapna_makeupartist.16/?igsh=dWhkcnNoOGlhN2t4#"
+                    href="https://www.instagram.com/ss_herbal_beauty_parlour/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-icon me-2"
