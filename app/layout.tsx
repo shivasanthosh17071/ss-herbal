@@ -3,8 +3,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'SS Herbal',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  description: 'Created by @santhosh.dev',
+  
 }
 
 export default function RootLayout({

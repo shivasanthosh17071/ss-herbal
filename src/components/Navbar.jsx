@@ -52,6 +52,7 @@ function Navbar() {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+         style={{visibility : scrolled ? "visible":"hidden"}}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
